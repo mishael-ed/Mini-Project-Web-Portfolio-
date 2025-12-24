@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 
 export default function Footer() {
   const gmailLink = "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mishaeledegwa@gmail.com&su=Let's Work Together!";
