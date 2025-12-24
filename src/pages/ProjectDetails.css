@@ -1,11 +1,7 @@
 .project-details-page {
-  width: 100%;
-  justify-content: center;
-  max-width: 10000px;     
-  margin: 0 auto;
-  padding: 3rem 400px;
-  font-family: "Volte", sans-serif;
-  box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  padding: 1rem;
   
 }
 

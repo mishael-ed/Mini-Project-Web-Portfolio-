@@ -6,12 +6,10 @@ export default function Home() {
     <div className="home">
     <h1>ABOUT ME</h1>
     
-      {/* Banner Image */}
       <div className="banner">
         <img src="/images/banner.png" alt="Banner" />
       </div>
 
-      {/* About Me Section */}
       <section className="intro">
         
         <p>
@@ -21,7 +19,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Technical Skills Section */}
       <section className="technical">
         <p>
           I focus on software development and problem-solving, creating websites, web applications, 
@@ -33,7 +30,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Design & Marketing Section */}
       <section className="design-marketing">
         <p>
           In addition, my background in marketing and copywriting helps me design websites that engage users, 
