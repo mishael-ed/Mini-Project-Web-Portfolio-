@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  justify-content: center; 
+  margin: 2rem 0;         
+}
+
+.banner img {
+  width: 100%;             
+  max-width: 800px;        
+  height: auto;          
+}
+
+
+
+.home {
+  text-align: justify;      
+  padding: 3rem; 
+   
+}
+
+.home h1 {
+ text-align: center;
+ font-size: 2rem;
+ margin-top: 0%;
+}
+
+.home p {
+ padding-left: 19.5rem;
+ padding-right: 19.5rem;
+}

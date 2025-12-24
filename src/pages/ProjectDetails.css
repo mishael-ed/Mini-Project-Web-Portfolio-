@@ -1,0 +1,62 @@
+.project-details-page {
+  width: 100%;
+  justify-content: center;
+  max-width: 10000px;     
+  margin: 0 auto;
+  padding: 3rem 400px;
+  font-family: "Volte", sans-serif;
+  box-sizing: border-box;
+  
+}
+
+
+
+.back-link:hover {
+  color: #8400b4;
+}
+
+
+.project-details-page h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.project-media {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.project-media img {
+  width: 100%;
+  height: auto;
+}
+
+
+.project-description {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+
+.project-tech {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+
+.project-github-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #e3e3e3;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.project-github-link:hover {
+  background-color: #8400b4;
+  color: #fff;
+}

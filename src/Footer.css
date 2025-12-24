@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;     
+  align-items: center;          
+  gap: 1rem;                    
+  width: 100%;
+  padding: 2rem 0;             
+  background-color: #191919;    
+  font-family: "Volte", sans-serif;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;                     /* same gap as navbar */
+}
+
+.footer-links a {
+  color: #e8e8e8;                    
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #bf0eff;                 /* same hover color as navbar */
+  font-weight: bold;
+}
