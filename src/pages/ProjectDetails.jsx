@@ -50,7 +50,7 @@ This project demonstrates low-level systems programming skills and OS text outpu
     <div className="project-details-page">
       <h1>{project.name}</h1>
 
-      {/* Video or image */}
+   
       {project.video && (
         <div className="project-media">
           <iframe
@@ -71,19 +71,19 @@ This project demonstrates low-level systems programming skills and OS text outpu
         </div>
       )}
 
-      {/* Description box */}
+      
       <div className="project-description">
         {project.description.split("\n").map((line, idx) => (
           <p key={idx}>{line}</p>
         ))}
       </div>
 
-      {/* Tech stack */}
+      
       <p className="project-tech">
         <strong>Tech Stack:</strong> {project.techStack.join(", ")}
       </p>
 
-      {/* GitHub link button */}
+      
       {project.github && (
         <a
           href={project.github}

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "./assets/logo.png"; // path to your logo
+import logo from "./assets/logo.png"; 
 
 export default function Navbar() {
   return (
@@ -15,7 +15,7 @@ export default function Navbar() {
         </NavLink>
       </nav>
 
-      {/* Banner under navbar */}
+      
       <div className="nav-banner">
         <img src={logo} alt="Logo" className="nav-logo" />
       </div>
